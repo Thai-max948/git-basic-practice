@@ -1,0 +1,2 @@
+Bài 1: git init, status, add, commit.
+Bài 2: cập nhật HTML, thêm JavaScript, xem lịch sử.

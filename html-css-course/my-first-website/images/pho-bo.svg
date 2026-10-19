@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">Bát phở bò</title>
+  <desc id="desc">Minh họa bát phở nóng với nước dùng, bánh phở, thịt bò và rau thơm</desc>
+  <rect width="800" height="440" rx="28" fill="#fff4e5"/>
+  <circle cx="110" cy="90" r="5" fill="#e5c89e"/>
+  <circle cx="690" cy="80" r="7" fill="#e5c89e"/>
+  <path d="M280 65c-34-35 21-45-3-74M405 70c-36-39 21-44-4-77M530 68c-34-34 20-46-4-74" fill="none" stroke="#d6a46d" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+  <ellipse cx="402" cy="350" rx="270" ry="48" fill="#c8d4d0"/>
+  <path d="M160 221h480l-39 128c-12 39-47 65-87 65H286c-40 0-75-26-87-65z" fill="#f6f8f5" stroke="#687b77" stroke-width="12"/>
+  <ellipse cx="400" cy="223" rx="242" ry="67" fill="#9e4c26" stroke="#687b77" stroke-width="12"/>
+  <ellipse cx="400" cy="214" rx="214" ry="46" fill="#b96b38"/>
+  <path d="M221 217c30-26 47 18 77-8s47 21 79-2 45 20 79-2 48 15 77-7 42 18 66-2" fill="none" stroke="#f3d8aa" stroke-width="15" stroke-linecap="round"/>
+  <path d="M270 188c20-24 41-28 63-13l-8 27-48 13zM355 181c21-22 47-22 65-3l-9 28-51 11zM457 188c18-21 41-25 60-11l-5 29-49 13z" fill="#b83931" stroke="#832b26" stroke-width="5"/>
+  <path d="M294 175l24 9M379 169l24 11M482 174l21 10" stroke="#f1a078" stroke-width="5" stroke-linecap="round"/>
+  <path d="M300 220c-20-33-48-25-47 2 25 0 34 9 47-2zm0 0c6-29 37-33 43-8-18 10-29 13-43 8zm112-3c-17-32-46-27-47 1 24 1 34 10 47-1zm0 0c8-28 39-30 43-5-19 9-30 11-43 5zm106-3c-15-31-45-28-48 0 24 3 33 12 48 0z" fill="#78a45d"/>
+  <circle cx="343" cy="211" r="5" fill="#e9c84d"/><circle cx="447" cy="218" r="5" fill="#e9c84d"/><circle cx="527" cy="205" r="5" fill="#e9c84d"/>
+  <path d="M180 334c99 29 339 30 440-1" fill="none" stroke="#d0d9d6" stroke-width="8" stroke-linecap="round"/>
+  <path d="M320 386c49 14 112 14 161-1" fill="none" stroke="#9dafaa" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-labelledby="title desc">
+  <title id="title">Bình giữ nhiệt</title>
+  <desc id="desc">Bình giữ nhiệt màu xanh lá đặt trên nền kem</desc>
+  <rect width="600" height="480" rx="26" fill="#f3f0e7"/>
+  <ellipse cx="300" cy="409" rx="130" ry="22" fill="#d6d1c5"/>
+  <path d="M251 78h98v45h-98z" fill="#263b35"/>
+  <rect x="239" y="108" width="122" height="35" rx="10" fill="#334c43"/>
+  <path d="M239 137c0-12 10-22 22-22h78c12 0 22 10 22 22l22 211c4 39-26 72-65 72h-36c-39 0-69-33-65-72z" fill="#527c66"/>
+  <path d="M252 153h18v210h-18z" fill="#729780" opacity=".8"/>
+  <path d="M283 234c27-30 47-28 76-7" fill="none" stroke="#d8e7d7" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="369" cy="215" r="7" fill="#d8e7d7"/>
+  <rect x="241" y="131" width="118" height="10" rx="5" fill="#8ca18f"/>
+  <path d="M267 378h66" stroke="#355a47" stroke-width="6" stroke-linecap="round"/>
+</svg>

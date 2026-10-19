@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio responsive theo tư duy mobile-first, sử dụng CSS Grid.">
+  <title>Portfolio - Minh Anh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="portfolio-page">
+  <div class="page-container">
+    <header class="site-header">
+      <a class="site-logo" href="homepage.html" aria-label="Minh Anh, trang chủ">MA<span>.</span></a>
+      <nav class="site-nav" aria-label="Điều hướng chính">
+        <a href="#projects">Dự án</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="about">
+        <div class="hero-copy">
+          <p class="eyebrow">PORTFOLIO · FRONT-END</p>
+          <h1>Thiết kế web dễ dùng, rõ ràng và có cá tính.</h1>
+          <p>Mình là Minh Anh, một người học phát triển web. Mình thích biến những ý tưởng nhỏ thành giao diện có cấu trúc, dễ đọc và hoạt động tốt trên nhiều thiết bị.</p>
+          <a class="button-link" href="#projects">Xem dự án <span aria-hidden="true">↘</span></a>
+        </div>
+        <picture class="hero-art">
+          <source media="(max-width: 600px)" srcset="images/portfolio-mobile.svg">
+          <img src="images/portfolio-desktop.svg" alt="Minh họa trừu tượng về một giao diện web được thiết kế theo lưới" width="720" height="460">
+        </picture>
+      </section>
+      <section class="projects-section" id="projects">
+        <div class="section-heading"><p class="eyebrow">CHỌN LỌC</p><h2>Dự án gần đây</h2><p>Một vài bài thực hành về cấu trúc, bố cục và thiết kế đáp ứng.</p></div>
+        <div class="content-grid">
+          <article class="card card-1"><picture><source media="(max-width: 600px)" srcset="images/project-grid-mobile.svg"><img src="images/project-grid.svg" alt="Minh họa trang báo với các khối nội dung theo lưới" width="640" height="400"></picture><div><p class="card-kicker">CSS GRID</p><h3>Trang báo điện tử</h3><p>Bố cục tin tức nhiều vùng với lưới lồng nhau và các điểm ngắt responsive.</p><a href="../newspaper.html">Xem bài thực hành <span aria-hidden="true">↗</span></a></div></article>
+          <article class="card card-2"><img src="images/project-gallery.svg" alt="Minh họa thư viện ảnh dạng thẻ" width="640" height="400"><div><p class="card-kicker">FLEXBOX</p><h3>Thư viện ảnh</h3><p>Các thẻ ảnh tự xuống hàng và co giãn theo chiều rộng màn hình.</p><a href="../gallery.html">Xem bài thực hành <span aria-hidden="true">↗</span></a></div></article>
+          <article class="card card-3"><img src="images/project-products.svg" alt="Minh họa các thẻ sản phẩm xếp thành hàng" width="640" height="400"><div><p class="card-kicker">HTML & CSS</p><h3>Danh sách sản phẩm</h3><p>Thẻ sản phẩm nhất quán với bố cục linh hoạt và trạng thái tương tác.</p><a href="../product-grid.html">Xem bài thực hành <span aria-hidden="true">↗</span></a></div></article>
+          <article class="card card-4"><img src="images/project-menu.svg" alt="Minh họa menu điều hướng ngang và menu trên màn hình nhỏ" width="640" height="400"><div><p class="card-kicker">RESPONSIVE NAV</p><h3>Menu điều hướng</h3><p>Menu CSS chuyển từ các liên kết ngang sang điều khiển hamburger trên màn hình nhỏ.</p><a href="../responsive-nav.html">Xem bài thực hành <span aria-hidden="true">↗</span></a></div></article>
+          <article class="card card-5"><img src="images/project-center.svg" alt="Minh họa một thẻ nội dung được căn giữa" width="640" height="400"><div><p class="card-kicker">FLEXBOX</p><h3>Thẻ căn giữa</h3><p>Thực hành căn giữa một thành phần theo cả hai chiều trong khung nhìn.</p><a href="../centered-card.html">Xem bài thực hành <span aria-hidden="true">↗</span></a></div></article>
+          <article class="card card-6"><img src="images/project-blog.svg" alt="Minh họa trang blog có vùng nội dung và thanh bên" width="640" height="400"><div><p class="card-kicker">CSS GRID</p><h3>Layout blog</h3><p>Header, nội dung chính, sidebar và footer được sắp xếp trong một lưới hai cột.</p><a href="../blog-layout.html">Xem bài thực hành <span aria-hidden="true">↗</span></a></div></article>
+        </div>
+      </section>
+      <section class="contact-strip" id="contact"><div><p class="eyebrow">CÙNG TRAO ĐỔI</p><h2>Luôn sẵn sàng học điều mới.</h2></div><a class="button-link button-link-light" href="mailto:hello@example.com">Gửi lời chào <span aria-hidden="true">↗</span></a></section>
+    </main>
+    <footer class="site-footer"><span>© 2026 Minh Anh</span><a href="mailto:hello@example.com">hello@example.com</a></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Công thức phở bò</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <article id="recipe-card">
+      <header>
+        <h1>Phở bò truyền thống</h1>
+        <p>Bát phở nóng với nước dùng thơm, bánh phở mềm và thịt bò thái mỏng.</p>
+        <img src="images/pho-bo.svg" alt="Bát phở bò nóng với bánh phở, thịt bò, hành lá và rau thơm">
+      </header>
+
+      <section>
+        <h2>Nguyên liệu</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Tên nguyên liệu</th>
+              <th scope="col">Số lượng</th>
+              <th scope="col">Đơn vị</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Bánh phở tươi</td><td>400</td><td>g</td></tr>
+            <tr><td class="highlight">Thịt bò tái</td><td>250</td><td>g</td></tr>
+            <tr><td>Nước dùng bò</td><td>1.5</td><td>lít</td></tr>
+            <tr><td>Hành tây</td><td>1</td><td>củ</td></tr>
+            <tr><td>Gừng</td><td>1</td><td>nhánh</td></tr>
+            <tr><td>Hành lá và rau thơm</td><td>1</td><td>bó nhỏ</td></tr>
+            <tr><td>Quế, hoa hồi, thảo quả</td><td>1</td><td>ít</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Các bước thực hiện</h2>
+        <ol>
+          <li>Nướng sơ gừng và hành tây. Rang quế, hoa hồi và thảo quả cho dậy mùi.</li>
+          <li>Đun nước dùng với các gia vị đã chuẩn bị trong khoảng 30 phút, sau đó nêm muối và nước mắm vừa ăn.</li>
+          <li>Chần bánh phở trong nước sôi rồi chia đều vào các bát.</li>
+          <li class="highlight">Xếp thịt bò thái mỏng lên trên bánh phở, chan nước dùng đang sôi vào bát.</li>
+          <li>Thêm hành lá, rau thơm và dùng nóng.</li>
+        </ol>
+      </section>
+
+      <footer>
+        <p>Mẹo nhỏ: thái thịt bò thật mỏng và chan nước dùng khi còn sôi để thịt vừa chín tới, mềm và ngọt.</p>
+      </footer>
+    </article>
+
+    <hr>
+
+    <section>
+      <h2>Để lại phản hồi của bạn</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="ten_nguoi_gui">Tên người gửi:</label><br>
+          <input type="text" id="ten_nguoi_gui" name="ten_nguoi_gui">
+        </div>
+        <fieldset>
+          <legend>Đánh giá món ăn:</legend>
+          <input type="radio" id="sao_1" name="danh_gia" value="1">
+          <label for="sao_1">1 sao</label><br>
+          <input type="radio" id="sao_2" name="danh_gia" value="2">
+          <label for="sao_2">2 sao</label><br>
+          <input type="radio" id="sao_3" name="danh_gia" value="3">
+          <label for="sao_3">3 sao</label><br>
+          <input type="radio" id="sao_4" name="danh_gia" value="4">
+          <label for="sao_4">4 sao</label><br>
+          <input type="radio" id="sao_5" name="danh_gia" value="5">
+          <label for="sao_5">5 sao</label>
+        </fieldset>
+        <div>
+          <label for="binh_luan">Bình luận:</label><br>
+          <textarea id="binh_luan" name="binh_luan" rows="4"></textarea>
+        </div>
+        <button type="submit">Gửi phản hồi</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

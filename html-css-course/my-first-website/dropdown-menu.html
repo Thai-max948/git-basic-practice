@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu điều hướng có menu con</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dropdown-demo">
+  <header class="dropdown-header">
+    <h1>Menu điều hướng</h1>
+    <nav class="main-nav" aria-label="Điều hướng chính">
+      <ul>
+        <li><a href="#home">Trang chủ</a></li>
+        <li><a href="#about">Giới thiệu</a></li>
+        <li class="has-dropdown">
+          <a href="#products" aria-haspopup="true">Sản phẩm ▾</a>
+          <ul class="dropdown">
+            <li><a href="#category-a">Sản phẩm loại A</a></li>
+            <li><a href="#category-b">Sản phẩm loại B</a></li>
+            <li><a href="#other-products">Sản phẩm khác</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="dropdown-content">
+    <h2 id="home">Chào mừng bạn</h2>
+    <p>Di chuột vào mục “Sản phẩm” để mở menu con. Dùng phím Tab để di chuyển giữa các liên kết.</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Trang portfolio mosaic xây dựng bằng CSS Grid.">
+  <title>Portfolio - Lưới Mosaic</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-container">
+  <header class="header">
+    <a class="portfolio-brand" href="#home" aria-label="Trang chủ Minh Anh">MA<span>.</span></a>
+    <nav aria-label="Điều hướng chính"><a href="#du-an">Dự án</a><a href="#gioi-thieu">Giới thiệu</a><a href="#lien-he">Liên hệ</a></nav>
+    <div class="portfolio-intro" id="home">
+      <p class="portfolio-kicker">PORTFOLIO · 2026</p>
+      <h1>Xin chào, mình là Minh Anh.</h1>
+      <p>Mình yêu thích biến ý tưởng thành những trải nghiệm web rõ ràng, dễ dùng và có cá tính.</p>
+    </div>
+  </header>
+  <main class="content-grid" id="du-an" aria-label="Các dự án và bài viết nổi bật">
+    <article class="card card-1">
+      <span class="card-number">01 / DỰ ÁN NỔI BẬT</span>
+      <div><h2>Góc học tập</h2><p>Thiết kế một không gian số giúp người học lên kế hoạch, theo dõi tiến độ và giữ nhịp học tập mỗi ngày.</p><a href="#gioi-thieu">Khám phá dự án <span aria-hidden="true">↗</span></a></div>
+    </article>
+    <article class="card card-2"><span class="card-number">02 / UI DESIGN</span><div><h2>Nhật ký đọc</h2><p>Ghi lại những cuốn sách đã đọc.</p></div></article>
+      <article class="card card-3"><span class="card-number">03 / HTML & CSS</span><div><h2>Layout blog với Grid</h2><p>Một trang web gọn gàng, tương thích nhiều thiết bị và có cấu trúc ngữ nghĩa.</p><a href="blog-layout.html">Xem trang mẫu <span aria-hidden="true">↗</span></a></div></article>
+    <article class="card card-4"><span class="card-number">04 / GHI CHÚ</span><div><h2>Học bằng cách làm</h2><p>Mỗi dự án nhỏ là cơ hội để luyện tập, nhận phản hồi và cải thiện sản phẩm qua từng phiên bản.</p></div></article>
+    <article class="card card-5" id="gioi-thieu"><span class="card-number">05 / VỀ MÌNH</span><div><h2>Tò mò mỗi ngày</h2><p>Quan sát, đặt câu hỏi, thử nghiệm.</p></div></article>
+    <article class="card card-6" id="lien-he"><span class="card-number">06 / KẾT NỐI</span><div><h2>Cùng trao đổi</h2><p>hello@example.com</p></div></article>
+  </main>
+  <footer class="footer"><span>© 2026 Minh Anh</span><span>Được xây dựng bằng HTML & CSS Grid</span></footer>
+</body>
+</html>

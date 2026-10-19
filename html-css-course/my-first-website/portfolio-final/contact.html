@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Liên hệ với Minh Anh.">
+  <title>Liên hệ — Minh Anh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Minh Anh, trang chủ">MA<span>.</span></a>
+      <input class="menu-toggle" type="checkbox" id="site-menu" aria-label="Mở hoặc đóng menu">
+      <label class="menu-button" for="site-menu"><span class="visually-hidden">Menu</span><span></span><span></span><span></span></label>
+      <nav class="main-nav" aria-label="Điều hướng chính"><a href="index.html">Trang chủ</a><a href="about.html">Giới thiệu</a><a href="projects.html">Dự án</a><a href="contact.html" aria-current="page">Liên hệ</a></nav>
+    </header>
+    <main class="content-page contact-page">
+      <header class="page-intro"><p class="eyebrow">LIÊN HỆ</p><h1>Mình rất vui được nghe từ bạn.</h1><p>Nếu bạn muốn trao đổi về học tập, thiết kế web hoặc một dự án thú vị, hãy để lại lời nhắn.</p></header>
+      <div class="contact-layout">
+        <form class="contact-form" action="#" method="post">
+          <label for="name">Họ và tên</label><input id="name" name="name" type="text" autocomplete="name" required>
+          <label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required>
+          <label for="message">Lời nhắn</label><textarea id="message" name="message" rows="6" required></textarea>
+          <button type="submit">Gửi lời nhắn <span aria-hidden="true">↗</span></button>
+          <p class="form-note">Biểu mẫu hiện là giao diện tĩnh và chưa kết nối dịch vụ gửi tin nhắn.</p>
+        </form>
+        <aside class="contact-details"><h2>Kết nối</h2><p>Email mẫu: <a href="mailto:hello@example.com">hello@example.com</a></p><ul><li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li></ul></aside>
+      </div>
+    </main>
+    <footer class="site-footer"><span>© 2026 Minh Anh</span><div><a href="about.html">Giới thiệu</a><a href="projects.html">Dự án</a></div></footer>
+  </div>
+</body>
+</html>

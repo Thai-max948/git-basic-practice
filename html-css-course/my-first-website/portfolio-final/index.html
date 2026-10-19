@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio cá nhân của Minh Anh, giới thiệu kỹ năng và dự án phát triển web.">
+  <title>Minh Anh — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Minh Anh, trang chủ">MA<span>.</span></a>
+      <input class="menu-toggle" type="checkbox" id="site-menu" aria-label="Mở hoặc đóng menu">
+      <label class="menu-button" for="site-menu"><span class="visually-hidden">Menu</span><span></span><span></span><span></span></label>
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <a href="index.html" aria-current="page">Trang chủ</a>
+        <a href="about.html">Giới thiệu</a>
+        <a href="projects.html">Dự án</a>
+        <a href="contact.html">Liên hệ</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">HỌC HỎI · THIẾT KẾ · PHÁT TRIỂN</p>
+          <h1 id="hero-title">Chào bạn,<br>mình là Minh Anh.</h1>
+          <p class="hero-lead">Mình đang học phát triển giao diện web và thích tạo ra những trải nghiệm số dễ hiểu, hữu ích, hoạt động tốt trên mọi màn hình.</p>
+          <a class="button-link" href="projects.html">Xem các dự án <span aria-hidden="true">↗</span></a>
+        </div>
+        <picture class="hero-art">
+          <source media="(max-width: 600px)" srcset="../portfolio-responsive/images/portfolio-mobile.svg">
+          <img src="../portfolio-responsive/images/portfolio-desktop.svg" alt="Minh họa portfolio được sắp xếp bằng lưới responsive" width="720" height="460">
+        </picture>
+      </section>
+      <section class="intro-band">
+        <p class="eyebrow">MÌNH QUAN TÂM</p>
+        <h2>Giao diện rõ ràng.<br>Chi tiết có chủ đích.</h2>
+        <p>Từ cấu trúc HTML ngữ nghĩa đến Flexbox, CSS Grid và thiết kế mobile-first, mỗi bài thực hành là một bước để mình làm chủ nền tảng web.</p>
+      </section>
+      <section class="home-projects">
+        <div class="section-heading"><div><p class="eyebrow">ĐANG XÂY DỰNG</p><h2>Một vài dự án</h2></div><a href="projects.html">Tất cả dự án <span aria-hidden="true">→</span></a></div>
+        <div class="project-preview-grid">
+          <article class="project-preview"><img src="../portfolio-responsive/images/project-grid.svg" alt="Minh họa bố cục báo điện tử dạng lưới" width="640" height="400"><p class="eyebrow">CSS GRID</p><h3>Trang báo điện tử</h3></article>
+          <article class="project-preview"><img src="../portfolio-responsive/images/project-gallery.svg" alt="Minh họa bộ sưu tập hình ảnh" width="640" height="400"><p class="eyebrow">FLEXBOX</p><h3>Thư viện ảnh</h3></article>
+        </div>
+      </section>
+      <section class="contact-callout"><div><p class="eyebrow">CÙNG TRAO ĐỔI</p><h2>Mình luôn sẵn sàng học hỏi.</h2></div><a class="button-link button-link-inverse" href="contact.html">Liên hệ với mình <span aria-hidden="true">↗</span></a></section>
+    </main>
+    <footer class="site-footer"><span>© 2026 Minh Anh</span><div><a href="projects.html">Dự án</a><a href="contact.html">Liên hệ</a></div></footer>
+  </div>
+</body>
+</html>

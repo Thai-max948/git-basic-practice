@@ -1,0 +1,31 @@
+@use "tokens" as t;
+
+@mixin page-shell {
+  width: min(100% - 2.5rem, t.$content-width);
+  margin-inline: auto;
+}
+
+@mixin focus-ring {
+  outline: 3px solid t.$coral;
+  outline-offset: 4px;
+}
+
+@mixin hover-lift {
+  transition: transform 180ms ease, box-shadow 180ms ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1rem 2.5rem rgb(29 36 51 / 10%);
+  }
+}
+
+@mixin eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: t.$muted;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}

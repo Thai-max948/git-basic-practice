@@ -1,0 +1,87 @@
+@use "tokens" as t;
+@use "mixins" as m;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: t.$paper;
+  color: t.$ink;
+  font-family: t.$font-body;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  @include m.focus-ring;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.page-shell {
+  @include m.page-shell;
+}
+
+.eyebrow {
+  @include m.eyebrow;
+  margin: 0 0 1.25rem;
+
+  &__line {
+    width: 1.8rem;
+    height: 1px;
+    background: currentColor;
+  }
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  font-family: t.$font-display;
+  font-weight: 400;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+}
+
+h1 em,
+h2 em {
+  color: t.$coral;
+  font-weight: 400;
+}
+
+::selection {
+  background: t.$coral;
+  color: t.$white;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

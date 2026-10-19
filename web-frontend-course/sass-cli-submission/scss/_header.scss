@@ -1,0 +1,104 @@
+@use "tokens" as t;
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 5.5rem;
+  border-bottom: 1px solid t.$line;
+}
+
+.wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 1.05rem;
+  font-weight: 750;
+  letter-spacing: -0.04em;
+
+  &__mark {
+    display: grid;
+    width: 2rem;
+    aspect-ratio: 1;
+    place-items: center;
+    border-radius: 50%;
+    background: t.$ink;
+    color: t.$white;
+    font-family: t.$font-display;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  &__dot {
+    color: t.$coral;
+  }
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 3vw, 2.5rem);
+  font-size: 0.85rem;
+
+  > a:not(.button) {
+    color: t.$muted;
+    transition: color 160ms ease;
+
+    &:hover {
+      color: t.$ink;
+    }
+  }
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem;
+  min-height: 3.25rem;
+  padding: 0.75rem 1.15rem;
+  border: 1px solid t.$ink;
+  border-radius: 999px;
+  background: t.$ink;
+  color: t.$white;
+  font-size: 0.83rem;
+  font-weight: 650;
+  transition: background 160ms ease, color 160ms ease, transform 160ms ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    background: transparent;
+    color: t.$ink;
+  }
+
+  &--small {
+    min-height: 2.5rem;
+    padding-inline: 1rem;
+    font-size: 0.76rem;
+  }
+
+  &--light {
+    border-color: t.$white;
+    background: t.$white;
+    color: t.$ink;
+
+    &:hover {
+      background: transparent;
+      color: t.$white;
+    }
+  }
+}
+
+@media (max-width: 38rem) {
+  .site-header {
+    min-height: 4.75rem;
+  }
+
+  .site-nav {
+    gap: 0.8rem;
+
+    > a:not(.button) {
+      display: none;
+    }
+  }
+}

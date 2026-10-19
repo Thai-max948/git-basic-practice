@@ -1,0 +1,7 @@
+Màu đơn sắc: xanh dương
+Bậc 1: #00ADEE
+Bậc 2: #00B2EF
+Bậc 4: #00BFF2
+Bậc 7: #8DD7F7
+Bậc 9: #C6E9FA
+Chữ: #222

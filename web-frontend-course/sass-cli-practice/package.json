@@ -1,0 +1,14 @@
+{
+  "name": "sass-cli-practice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive website demonstrating Sass CLI and npm workflows",
+  "scripts": {
+    "sass:build": "sass scss/:css/ --no-source-map",
+    "sass:watch": "sass --watch scss/:css/ --no-source-map",
+    "sass:one": "sass scss/main.scss css/main.css --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.105.2"
+  }
+}

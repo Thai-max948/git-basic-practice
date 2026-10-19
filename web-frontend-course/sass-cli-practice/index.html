@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A responsive studio landing page built with Sass and CSS Grid.">
+  <title>Northstar Studio — Thoughtful digital work</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="site-header page-shell">
+    <a class="wordmark" href="index.html" aria-label="Northstar Studio home">
+      <span class="wordmark__mark" aria-hidden="true">N</span>
+      <span>northstar<span class="wordmark__dot">.</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#approach">Approach</a>
+      <a class="button button--small" href="#contact">Start a project <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero page-shell" id="approach">
+      <div class="hero__copy">
+        <p class="eyebrow"><span class="eyebrow__line"></span> Independent digital studio</p>
+        <h1>Good ideas deserve <em>room to grow.</em></h1>
+        <p class="hero__text">We make clear, considered digital experiences for people building what comes next.</p>
+        <a class="button" href="#work">Explore our work <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="Abstract illustration of a bright sun above a blue landscape" role="img">
+        <span class="hero-art__sun"></span>
+        <span class="hero-art__hill hero-art__hill--back"></span>
+        <span class="hero-art__hill hero-art__hill--front"></span>
+        <span class="hero-art__caption">Make space for<br>the next idea.</span>
+      </div>
+      <p class="hero__aside">Strategy<br>Design<br>Development</p>
+    </section>
+
+    <section class="work-section page-shell" id="work">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow__line"></span> Selected work</p>
+          <h2>Small teams.<br><em>Big momentum.</em></h2>
+        </div>
+        <p class="section-heading__note">A few recent collaborations<br>built with care and curiosity.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-card--wide">
+          <div class="project-visual project-visual--moss" aria-hidden="true"><span class="project-visual__orbit"></span><span class="project-visual__label">FIELD<br>NOTES</span></div>
+          <div class="project-meta"><div><h3>Fieldnotes Journal</h3><p>Editorial platform · 2025</p></div><span class="project-arrow" aria-hidden="true">↗</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual project-visual--rose" aria-hidden="true"><span class="project-visual__shape"></span><span class="project-visual__label">SLOW<br>FORM</span></div>
+          <div class="project-meta"><div><h3>Slowform Objects</h3><p>Brand and storefront · 2025</p></div><span class="project-arrow" aria-hidden="true">↗</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual project-visual--blue" aria-hidden="true"><span class="project-visual__shape"></span><span class="project-visual__label">OPEN<br>HOUSE</span></div>
+          <div class="project-meta"><div><h3>Openhouse Network</h3><p>Community platform · 2024</p></div><span class="project-arrow" aria-hidden="true">↗</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-band page-shell" id="contact">
+      <p class="eyebrow"><span class="eyebrow__line"></span> Have something in mind?</p>
+      <div class="contact-band__row"><h2>Let’s make<br><em>it matter.</em></h2><a class="button button--light" href="mailto:hello@example.com">Tell us about it <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer page-shell">
+    <a class="wordmark" href="index.html"><span class="wordmark__mark" aria-hidden="true">N</span><span>northstar<span class="wordmark__dot">.</span></span></a>
+    <p>Independent by nature. Better together.</p>
+    <small>© 2025 Northstar Studio</small>
+  </footer>
+</body>
+</html>

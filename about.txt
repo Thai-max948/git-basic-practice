@@ -1,0 +1,2 @@
+Đây là bài thực hành Git căn bản.
+Repository dùng để luyện commit, clone và pull.

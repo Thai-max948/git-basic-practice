@@ -1,0 +1,18 @@
+{
+  "name": "sass-cli-practice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive website demonstrating Sass CLI and npm workflows",
+  "scripts": {
+    "sass:build": "sass scss/:css/ --no-source-map",
+    "sass:watch": "sass --watch scss/:css/ --no-source-map",
+    "sass:one": "sass scss/main.scss css/main.css --no-source-map",
+    "sass:refactor": "sass examples/css-to-scss/main.scss examples/css-to-scss/css/main.css --no-source-map",
+    "sass:portfolio": "sass examples/portfolio-sass-refactor/scss/main.scss examples/portfolio-sass-refactor/css/main.css --no-source-map",
+    "sass:grid": "sass examples/responsive-grid-sass/scss/main.scss examples/responsive-grid-sass/css/main.css --no-source-map",
+    "sass:all": "npm run sass:build && npm run sass:refactor && npm run sass:portfolio && npm run sass:grid"
+  },
+  "devDependencies": {
+    "sass": "^1.105.2"
+  }
+}

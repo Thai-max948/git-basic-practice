@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Minh họa giao diện báo điện tử theo lưới</title>
+  <rect width="640" height="400" fill="#dbeafe"/><rect x="34" y="28" width="572" height="344" fill="#fafafa" stroke="#18181b" stroke-width="5"/><rect x="54" y="50" width="532" height="50" fill="#18181b"/><rect x="54" y="120" width="330" height="160" fill="#2563eb"/><rect x="402" y="120" width="184" height="72" fill="#e8ecf0" stroke="#18181b" stroke-width="3"/><rect x="402" y="208" width="184" height="72" fill="#93c5fd"/><rect x="54" y="300" width="160" height="50" fill="#fff" stroke="#18181b" stroke-width="3"/><rect x="228" y="300" width="160" height="50" fill="#fff" stroke="#18181b" stroke-width="3"/><rect x="402" y="300" width="184" height="50" fill="#fff" stroke="#18181b" stroke-width="3"/>
+</svg>

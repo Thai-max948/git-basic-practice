@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" role="img" aria-labelledby="title desc">
+  <title id="title">Bố cục giao diện trên điện thoại</title>
+  <desc id="desc">Các khối xanh, đen và trắng được sắp xếp thành giao diện responsive trên màn hình dọc.</desc>
+  <rect width="480" height="600" fill="#e8ecf0"/>
+  <rect x="34" y="28" width="412" height="544" fill="#fafafa" stroke="#18181b" stroke-width="6"/>
+  <rect x="56" y="52" width="72" height="28" fill="#18181b"/>
+  <rect x="348" y="54" width="72" height="24" fill="#2563eb"/>
+  <rect x="56" y="108" width="368" height="200" fill="#18181b"/>
+  <rect x="78" y="138" width="270" height="20" fill="#93c5fd"/>
+  <rect x="78" y="174" width="300" height="52" fill="#fff"/>
+  <rect x="78" y="246" width="136" height="34" fill="#2563eb"/>
+  <rect x="56" y="334" width="368" height="104" fill="#fff" stroke="#18181b" stroke-width="4"/>
+  <rect x="72" y="350" width="112" height="70" fill="#2563eb"/>
+  <rect x="200" y="350" width="200" height="14" fill="#18181b"/>
+  <rect x="200" y="378" width="168" height="10" fill="#475569"/>
+  <rect x="56" y="454" width="368" height="90" fill="#2563eb"/>
+  <rect x="74" y="472" width="200" height="14" fill="#fff"/>
+  <rect x="74" y="502" width="300" height="10" fill="#dbeafe"/>
+</svg>

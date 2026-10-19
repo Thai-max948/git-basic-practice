@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">Bố cục portfolio trên màn hình rộng</title>
+  <desc id="desc">Một lưới editorial với giao diện web và các thẻ dự án màu xanh, trắng, đen.</desc>
+  <rect width="720" height="460" fill="#e8ecf0"/>
+  <rect x="28" y="24" width="664" height="412" fill="#fafafa" stroke="#18181b" stroke-width="6"/>
+  <rect x="56" y="50" width="90" height="26" fill="#18181b"/>
+  <rect x="530" y="54" width="50" height="16" fill="#475569"/>
+  <rect x="596" y="54" width="66" height="16" fill="#2563eb"/>
+  <rect x="56" y="104" width="344" height="198" fill="#18181b"/>
+  <rect x="80" y="130" width="210" height="18" fill="#93c5fd"/>
+  <rect x="80" y="164" width="280" height="56" fill="#fff"/>
+  <rect x="80" y="244" width="118" height="34" fill="#2563eb"/>
+  <rect x="420" y="104" width="242" height="198" fill="#2563eb"/>
+  <rect x="442" y="128" width="94" height="122" fill="#fff"/>
+  <rect x="550" y="128" width="90" height="56" fill="#18181b"/>
+  <rect x="550" y="194" width="90" height="56" fill="#93c5fd"/>
+  <rect x="56" y="326" width="185" height="82" fill="#fff" stroke="#18181b" stroke-width="4"/>
+  <rect x="267" y="326" width="185" height="82" fill="#e8ecf0" stroke="#18181b" stroke-width="4"/>
+  <rect x="478" y="326" width="184" height="82" fill="#fff" stroke="#18181b" stroke-width="4"/>
+  <rect x="74" y="344" width="64" height="46" fill="#2563eb"/>
+  <rect x="285" y="344" width="64" height="46" fill="#18181b"/>
+  <rect x="496" y="344" width="64" height="46" fill="#93c5fd"/>
+</svg>
